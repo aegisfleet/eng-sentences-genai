@@ -36,6 +36,8 @@ jobs:
       - name: Copy contents
         run: |
           cp src/index.html dist/
+          mkdir -p dist/img/
+          cp src/img/* dist/img/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
