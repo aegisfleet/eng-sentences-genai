@@ -25,6 +25,12 @@
         }
         h1 {
             color: #333;
+            text-align: center; /* ロゴを中央揃えにする */
+        }
+        h1 img {
+            max-width: 100%; /* 画像が親要素を超えないようにする */
+            height: auto; /* アスペクト比を維持 */
+            width: 500px; /* ロゴの幅を固定 (必要に応じて調整してください) */
         }
         #content {
             margin-top: 20px;
@@ -80,7 +86,7 @@
 <body>
     <div class="container">
         <h1>
-            <img src="./img/logo.svg" alt="AIランダム英文生成アプリ" style="max-width: 100%; height: auto;">
+            <img src="./img/logo.svg" alt="AIランダム英文生成アプリ">
         </h1>
         <p>新しい英文を生成するには、下部の「新しい英文を生成」ボタンをクリックしてください。</p>
         <div id="loading">生成中...</div>
