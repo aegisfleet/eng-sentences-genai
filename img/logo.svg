@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <path d="M100 10 H 390 Q 400 10, 400 20 V 70 Q 400 80, 390 80 H 140 L 120 100 L 120 80 H 100 Q 90 80, 90 70 V 20 Q 90 10, 100 10 Z" fill="#4CAF50"/>
+  <circle cx="50" cy="50" r="40" fill="#2196F3"/>
+  <path d="M50 50 L90 50 A40 40 0 0 1 50 90 Z" fill="#FFC107"/>
+  <path d="M50 50 L50 10 A40 40 0 0 1 90 50 Z" fill="#FF5722"/>
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">AI</text>
+  <text x="245" y="57" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#ffffff">ランダム英文生成アプリ</text>
+</svg>
