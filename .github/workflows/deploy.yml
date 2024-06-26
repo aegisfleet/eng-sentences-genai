@@ -13,12 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
-
-      - name: Encode and Replace API_KEY
-        run: |
-          ENCODED_KEY=$(echo -n "${{ secrets.GEMINI_API_KEY }}" | base64)
-          sed -i "s/API_KEY_HERE/$ENCODED_KEY/g" ./src/app.js
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
